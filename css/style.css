@@ -1,0 +1,243 @@
+body {
+    margin: 0px;
+    background-color: #E0FFFF;
+}
+
+
+a {}
+ul {
+    text-align: left;
+    margin-left: 10%;
+}
+ul li {
+    line-height: 2em;
+    list-style-image: url(/img/galochka.png);
+    font-size: 20px;
+    color: #003967;
+    font-weight: bold;
+}
+
+
+ol {
+    text-align: left;
+    margin-left: 10%;
+}
+
+.babki {
+    color: #74A5D3;
+    text-align: center;
+    font-size: 30px;
+    background-image: url(grey.jpg);
+}
+
+.list{
+    background-image: url(list.jpg);
+    border-radius: 10px;
+    background-repeat: no-repeat;
+
+}
+
+.kartinka {
+    float: left;
+    margin: 5px 5px 40px 40px;
+}
+.Clickbait {
+    font-size: 45px;
+    text-align: center;
+    color: #5597C9;
+    animation-duration: 2s;
+    animation-name: slidein;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+@keyframes slidein {
+  from {
+    margin-left: 60%;
+    width: 70%; 
+  }
+
+.earn {
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+}
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+.soc {
+    color: white;
+    font-size: 25px;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    background: #5597C9;
+    padding: 2px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.money{
+    border-radius: 5px;
+}
+ol li {
+    line-height: 2em;
+    font-size: 20px;
+    color: #005835;
+    font-weight: bold;
+}
+
+#buy {
+    background-color: #c948cf;
+    color: white;
+    padding: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.gaid {
+    font-size: 25px;
+}
+
+.center {
+    text-align: center;
+}
+
+.ul_page {
+    margin: 0px;
+    width: 80%;
+    float: left;
+    padding: 0px;
+}
+
+.ul_page li {
+    margin: 0px;
+    padding: 0 20px;
+    float: left;
+    list-style: none;
+}
+
+h1 {}
+
+
+.video {margin: 10px;}
+
+h1 {
+    background-color: #a7a7a7;
+    color: white;
+}
+
+.socpu {
+    background-color: white;
+    color: #5597C9;
+    font-size: 45px;
+    text-align: center;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+h1, h2 {text-align: center;margin: 0px;padding: 10px;}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: justify;
+    color: #005835;
+    line-height: 1.5em;
+    padding: 20px;
+    margin: 0px;
+    text-indent: 20px;
+}
+
+.what {
+    color: #1E90FF;
+    background-color: #C0C0C0;
+}
+
+.what2 {
+    color: #1E90FF;
+    background-color: #D3D3D3;
+}
+
+.baton {
+    border-radius: 15px;
+    background-color: green;
+    text-align: center;
+    margin: 0px;padding: 10px;
+    color: white;
+    font-size: 25px;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    background: #5597C9;
+    padding: 2px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+.block {
+    text-align: center;
+    margin: auto;
+    box-sizing: border-box;
+    margin: 20px;
+    background-color: #ffffff;
+    border: 1px solid #d5d5d5;
+}
+#button {
+    background-color: #0065b6;
+    padding: 20px;
+    color: aliceblue;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 30px;
+    border-radius: 20px;
+    animation: promo 1.5s infinite;
+}
+
+
+@keyframes promo {
+    from { opacity: 1;}
+    50% { opacity: 0.8;}
+    to { opacity: 1;}
+}
+
+#header {
+    background-image: url(roof.jpg);
+    font-weight: bold;
+    color: white;
+    font-size: 45px;
+    padding: 20px;
+    text-align: center;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+#vk_post {
+    max-width: 600px;
+    margin: auto;
+}
+
+}
+.video {
+    margin-top:25px;
+}
+hr.hidden {
+    visibility: hidden;
+    clear: both;
+}
+
+li {
+  font-size: 30px;
+  animation-duration: 2s;
+  animation-name: slidein;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+}
+@keyframes slidein {
+  from {
+    margin-left: 60%;
+    width: 70%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
